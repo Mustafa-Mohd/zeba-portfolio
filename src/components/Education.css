@@ -1,0 +1,131 @@
+.education {
+  padding: var(--section-pad);
+  background: var(--bg-primary);
+}
+
+.education-timeline {
+  max-width: 80rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.edu-card {
+  display: flex;
+  gap: 2rem;
+  position: relative;
+}
+
+.edu-icon-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.edu-icon {
+  width: 5rem;
+  height: 5rem;
+  background: var(--gradient);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  box-shadow: var(--shadow-glow);
+  flex-shrink: 0;
+  z-index: 1;
+}
+
+.edu-line {
+  width: 2px;
+  flex: 1;
+  background: linear-gradient(to bottom, var(--purple), transparent);
+  margin: 0.5rem 0;
+  min-height: 3rem;
+}
+
+.edu-content {
+  flex: 1;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 1.2rem;
+  padding: 2.5rem;
+  margin-bottom: 2.5rem;
+  transition: var(--transition);
+}
+
+.edu-content:hover {
+  border-color: var(--border-hover);
+  box-shadow: var(--shadow-glow);
+  transform: translateX(4px);
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.edu-status {
+  display: inline-block;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.3rem 1rem;
+  border-radius: 10rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.8rem;
+}
+
+.edu-status.pursuing {
+  background: rgba(245,158,11,0.1);
+  border: 1px solid rgba(245,158,11,0.3);
+  color: var(--orange);
+}
+
+.edu-status.completed {
+  background: rgba(16,185,129,0.1);
+  border: 1px solid rgba(16,185,129,0.3);
+  color: var(--green);
+}
+
+.edu-content h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+}
+
+.edu-institution {
+  font-size: 1.4rem;
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 400;
+}
+
+.edu-institution svg { color: var(--purple); }
+
+.edu-year {
+  font-family: var(--font-code);
+  font-size: 1.3rem;
+  color: var(--purple);
+  font-weight: 600;
+  white-space: nowrap;
+  background: rgba(139,92,246,0.1);
+  border: 1px solid rgba(139,92,246,0.25);
+  padding: 0.4rem 1.2rem;
+  border-radius: 0.6rem;
+  flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+  .edu-header { flex-direction: column; }
+  .edu-year { align-self: flex-start; }
+  .edu-icon { width: 4rem; height: 4rem; }
+  .edu-icon svg { width: 20px; height: 20px; }
+}
