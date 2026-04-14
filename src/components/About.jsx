@@ -23,8 +23,8 @@ const About = () => {
           </div>
           <p className="about-bio">
             I'm a passionate Full-Stack Developer based in <strong>Hyderabad, India</strong>,
-            currently pursuing my <strong>M.Tech</strong> at Vasavi College of Engineering.
-            I specialize in building end-to-end web applications using the <strong>MERN Stack</strong>
+            completed my <strong>M.Tech</strong> at Vasavi College of Engineering.
+            I specialize in building end-to-end web applications using the <strong> MERN Stack </strong>
             and love crafting pixel-perfect, user-friendly digital experiences.
           </p>
           <p className="about-bio">
@@ -50,7 +50,7 @@ const About = () => {
               <GraduationCap className="info-icon" />
               <div>
                 <span className="info-label">Degree</span>
-                <span className="info-value">M.Tech (Pursuing 2025)</span>
+                <span className="info-value">M.Tech (Completed)</span>
               </div>
             </div>
             <div className="info-item">
