@@ -20,7 +20,7 @@ const Education = () => {
           <div className="edu-content">
             <div className="edu-header">
               <div>
-                <span className="edu-status pursuing">Pursuing</span>
+                <span className="edu-status completed">Completed</span>
                 <h3>Master of Technology (M.Tech)</h3>
                 <p className="edu-institution"><MapPin size={14} /> Vasavi College of Engineering, Ibrahim Bagh, Hyderabad</p>
               </div>

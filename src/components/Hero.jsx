@@ -52,7 +52,7 @@ const Hero = () => {
             <span className="tw-prefix">I build </span><span className="typing-text" ref={el}></span>
           </div>
           <p className="hero-desc">
-            M.Tech student & Full Stack Developer crafting modern web experiences with React, Node.js & the MERN stack.
+            M.Tech graduate & Full Stack Developer crafting modern web experiences with React, Node.js & the MERN stack.
           </p>
           <div className="hero-cta">
             <a href="#projects" className="btn-primary">

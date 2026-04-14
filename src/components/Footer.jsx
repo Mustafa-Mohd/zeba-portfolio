@@ -1,5 +1,5 @@
 import React from 'react';
-import { Heart, ChevronRight, Phone, Mail, MapPin } from 'lucide-react';
+import { Heart, ChevronRight, Mail, MapPin } from 'lucide-react';
 import './Footer.css';
 
 const Footer = () => {
@@ -23,7 +23,7 @@ const Footer = () => {
         </div>
         <div className="footer-contact">
           <h4>Contact Info</h4>
-          <p><Phone size={14} className="accent-icon" /> +91 7036715802</p>
+
           <p><Mail size={14} className="accent-icon" /> Zebayasmeen2002@gmail.com</p>
           <p><MapPin size={14} className="accent-icon" /> Hyderabad, India</p>
         </div>
